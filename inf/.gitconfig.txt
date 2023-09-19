@@ -1,0 +1,11 @@
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	hista = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short --all
+	type = cat-file -t
+	dump = cat-file -p
+	pusha = push --all --progress
+	get = pull --all --progress --tags
